@@ -182,11 +182,10 @@ tr:hover {
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
 }
 
 #introducao p {
-    width: 70%;
+    width: 80%;
     margin: auto;
     justify-content: center;
     text-align: left;
@@ -194,8 +193,7 @@ tr:hover {
 }
 
 #introducao-container{
-    height: 100vh;
-    
+    height: 80%
 }
 
 #sobre h2,
@@ -271,6 +269,9 @@ p {
 }
 
 @media (max-width: 480px) {
+    #introducao{
+        height: 280vh;
+    }
     #sobre{
         height: 250vh;
     }
@@ -282,7 +283,7 @@ p {
 
 @media (max-width: 375px) {
     .navbar ul li a{
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .navbar ul li {
@@ -314,7 +315,7 @@ p {
     #inicio p {
         font-size: 16px; 
     }
-
+    
     h1 {
         font-size: 24px;
     }
@@ -326,6 +327,10 @@ p {
     p {
         font-size: 14px;
     }
+    #introducao{
+        height: 240vh;
+    }
+    #stats{
+        height: 280vh;
+    }
 }
-
-
